@@ -14,6 +14,8 @@
 		7DBDDE751ACCD751009E8AE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBDDE741ACCD751009E8AE5 /* Images.xcassets */; };
 		7DBDDE781ACCD751009E8AE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBDDE761ACCD751009E8AE5 /* LaunchScreen.xib */; };
 		7DBDDE841ACCD751009E8AE5 /* Quartz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDDE831ACCD751009E8AE5 /* Quartz2DTests.m */; };
+		7DBDDE8F1ACCD7BB009E8AE5 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDDE8E1ACCD7BB009E8AE5 /* View.m */; };
+		7DBDDE911ACD419B009E8AE5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DBDDE901ACD419B009E8AE5 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		7DBDDE7D1ACCD751009E8AE5 /* Quartz2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBDDE821ACCD751009E8AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DBDDE831ACCD751009E8AE5 /* Quartz2DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DTests.m; sourceTree = "<group>"; };
+		7DBDDE8D1ACCD7BB009E8AE5 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		7DBDDE8E1ACCD7BB009E8AE5 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		7DBDDE901ACD419B009E8AE5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +90,11 @@
 				7DBDDE6C1ACCD751009E8AE5 /* AppDelegate.m */,
 				7DBDDE6E1ACCD751009E8AE5 /* ViewController.h */,
 				7DBDDE6F1ACCD751009E8AE5 /* ViewController.m */,
+				7DBDDE8D1ACCD7BB009E8AE5 /* View.h */,
+				7DBDDE8E1ACCD7BB009E8AE5 /* View.m */,
 				7DBDDE711ACCD751009E8AE5 /* Main.storyboard */,
 				7DBDDE741ACCD751009E8AE5 /* Images.xcassets */,
+				7DBDDE901ACD419B009E8AE5 /* 1.jpg */,
 				7DBDDE761ACCD751009E8AE5 /* LaunchScreen.xib */,
 				7DBDDE671ACCD751009E8AE5 /* Supporting Files */,
 			);
@@ -202,6 +210,7 @@
 				7DBDDE731ACCD751009E8AE5 /* Main.storyboard in Resources */,
 				7DBDDE781ACCD751009E8AE5 /* LaunchScreen.xib in Resources */,
 				7DBDDE751ACCD751009E8AE5 /* Images.xcassets in Resources */,
+				7DBDDE911ACD419B009E8AE5 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DBDDE8F1ACCD7BB009E8AE5 /* View.m in Sources */,
 				7DBDDE701ACCD751009E8AE5 /* ViewController.m in Sources */,
 				7DBDDE6D1ACCD751009E8AE5 /* AppDelegate.m in Sources */,
 				7DBDDE6A1ACCD751009E8AE5 /* main.m in Sources */,
