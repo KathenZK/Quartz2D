@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 ZK. All rights reserved.
 //
 
-#import "View.h"
+#import "ZKView.h"
 
-@implementation View
+@implementation ZKView
 
 - (void)drawRect:(CGRect)rect {
     
@@ -35,6 +35,7 @@
     
 }
 
+#pragma mark - 绘制图形
 - (void)drawLine1{
     //1.获取图形上下文对象
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -86,6 +87,7 @@
     CGPathRelease(path);
 }
 
+#pragma mark - 绘制图形（利用UIKit的封装方法）
 -(void)drawLine2{
     //1.获得图形上下文
     CGContextRef context=UIGraphicsGetCurrentContext();
@@ -144,6 +146,7 @@
     CGContextDrawPath(context, kCGPathStroke);
 }
 
+#pragma mark - 绘制圆
 - (void)drawArc:(CGContextRef)context
 {
     /*添加弧形对象
@@ -200,6 +203,7 @@
     
 }
 
+#pragma mark - 绘制文本
 -(void)drawText:(CGContextRef)context{
     //绘制到指定的区域内容
     NSString *str=@"Star Walk is the most beautiful stargazing app you’ve ever seen on a mobile device. It will become your go-to interactive astro guide to the night sky, following your every movement in real-time and allowing you to explore over 200, 000 celestial bodies with extensive information about stars and constellations that you find.";

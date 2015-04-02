@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "View.h"
+#import "ZKView.h"
 
 @interface ViewController ()
 
@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    View *view = [[View alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    ZKView *view = [[ZKView alloc]initWithFrame:[UIScreen mainScreen].bounds];
     view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:view];
 }
